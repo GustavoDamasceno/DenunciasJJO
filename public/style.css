@@ -1,0 +1,99 @@
+/* CSS GRID BOOTSTRAP - Configurando altura de cada divisão */
+#mlateral{
+    background-color: #1a1f24;
+    height: 100vh;
+    /* FLEXBOX CSS - CARDS CANAIS */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#mcanais{
+    background-color: #1a1f24;
+    height: 20vh;
+    /* FLEXBOX CSS - CARDS CANAIS */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mgrafico{
+    background-color: #1a1f24;
+    height: 70vh;
+    /* FLEXBOX CSS - Gráfico */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mmregionais{
+    background-color: #1a1f24;
+    height: 70vh;
+    /* FLEXBOX CSS - Regiões */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mbotoes{
+    background-color: #1a1f24;
+    height: 10vh;
+    /* FLEXBOX CSS - BOTÕES */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+/* CARDS CANAIS */
+
+.cards{
+    width: 20vw;
+    height: 17vh;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: #262b2f;
+    border-color: #1a1d21;
+}
+
+/* CARDS BOTÕES */
+.btns{
+    width: 20vw;
+    height: 6vh;
+    /*border-radius: 8px; */
+    border-style: solid;
+    border-color: #1a1d21;
+    background-color: #262b2f;
+}
+
+/* CARD Gráfico */
+.grafic{
+    width: 100vw;
+    height: 68vh;
+    border-radius: 15px; 
+    border-style: solid;
+    border-color: #1a1d21;
+    background-color: #262b2f;
+}
+
+/* CARD Regiões */
+.regioes{
+    width: 100vw;
+    height: 68vh;
+    border-radius: 15px; 
+    border-style: solid;
+    border-color: #1a1d21;
+    background-color: #262b2f;
+}
+
+/* CARD menu */
+.menu{
+    width: 100vw;
+    height: 97vh;
+    border-radius: 15px; 
+    border-style: solid;
+    border-color: #1a1d21;
+    background-color: #262b2f;
+}
